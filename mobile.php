@@ -51,17 +51,7 @@
 	<!-- NEW DATEPICKER -->
 
 	
-	<!-- NEW TIMEPICKER -->
-	<script type="text/javascript" src="jquery.timepicker.js"></script>
-	<link rel="stylesheet" type="text/css" href="jquery.timepicker.css" />
-	
-
-	<script>
-		$(function() {
-		$( "#entry_1322686028" ).timepicker();
-		});
-	</script> 
-	<!-- NEW TIMEPICKER -->		
+<script type="text/javascript" src="mobile_timepicker.js"></script>		
         
 
 	<!-- THANK YOU REDIRECT -->
@@ -128,7 +118,7 @@
             
             <ul class="title-area">
                 <li class="name show-for-small-only">
-                    <h1><a href="#">D-Bird.org/mn</a></h1>
+                    <h1><a href="#" style="font-size: 29px">D-Bird.org/mn</a></h1>
                         <div class="powered-by">
                         <span>Powered by </span><a href="http://www.nycaudubon.org/index.php" target="blank"><img src="http://d-bird.org/images/nyca-banner.jpg"  style="width: 111px; height: 30px; vertical-align: middle;"/></a>
                         </div>
@@ -426,14 +416,8 @@
                             
                             
                             
-                                <div class="ss-form-question errorbox-good" role="listitem">
-                                        <label for="entry_1322686028">Time found *</label>
-                                                <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
-                                        <div class="textInput">
-                                            <input type="text" name="time" value="" class="ss-q-short" id="entry_1322686028" dir="auto" aria-label="Time Found  " aria-required="true" required="" title="">
-                                            <div class="error-message" id="730570887_errorMessage"></div>
-                                        </div>
-                                    
+                                <div id="time_div" class="ss-form-question errorbox-good" role="listitem">
+                                        <label for="time">Time found *</label>
                                 </div>
                             
 

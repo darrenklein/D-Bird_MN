@@ -144,7 +144,7 @@
             
             <ul class="title-area">
                 <li class="name show-for-small-only">
-                    <h1><a href="#">D-Bird.org/mn</a></h1>
+                    <h1><a href="#" style="font-size: 29px">D-Bird.org/mn</a></h1>
                         <div class="powered-by">
                         <span>Powered by </span><a href="http://www.nycaudubon.org/index.php" target="blank"><img src="http://d-bird.org/images/nyca-banner.jpg"  style="width: 111px; height: 30px; vertical-align: middle;"/></a>
                         </div>
